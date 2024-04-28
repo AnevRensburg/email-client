@@ -1,0 +1,25 @@
+<h3>Sign In</h3>
+<form (ngSubmit)="onSubmit()" class="ui form" [formGroup]="authForm">
+    <!-- Username Input -->
+    <app-input inputType="text" label="Username" [control]="$any(authForm.get('username'))"></app-input>
+
+    <!-- Password Input -->
+    <app-input inputType="password" label="Password" [control]="$any(authForm.get('password'))"></app-input>
+
+    <div *ngIf="authForm.errors" class="ui red basic label">
+        <p *ngIf="authForm.errors!['credentials']">
+            Incorrect username or password, failed to sign in
+        </p>
+        <p *ngIf="authForm.errors!['noConnection']">
+            No internet connection detected, failed to sign in
+        </p>
+        <p *ngIf="authForm.errors!['unknownError']">
+            Something went wrong, failed to sign in
+        </p>
+    </div>
+
+    <!-- Submit Button -->
+    <div>
+        <button class="ui submit button primary">Submit</button>
+    </div>
+</form>
