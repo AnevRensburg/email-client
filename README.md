@@ -1,28 +1,22 @@
-# email-client
+# Email Client
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.0.
+### A Modern Angular Bootcamp project
 
-## Development server
+[View the demo](https://email-client-peach.vercel.app/)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This Email-client project was done as part of [The Modern Angular Bootcamp](https://www.udemy.com/course/the-modern-angular-bootcamp) course. I finished working on this project in February 2024.
 
-## Code scaffolding
+The first part of the application focuses solely on the authentication system. This part is the initial stage of our application's development, constructed independently. It involves setting up an authentication system.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+There are several pages allowing users to navigate for signing in and signing up. Users can access a page displaying a sign-up form, where they can input a username, password, and password confirmation. Upon form submission, a new account representing the user is created on the backend server.
 
-## Build
+Upon returning to the application after logging out, users can sign in using their previously registered username and password.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+The second part is the email-client, where users can send and receive real emails. Upon signing into the application, they are presented with a list of received emails. Clicking on an email opens it in the center panel, displaying sender, recipient, subject, and email content. Users can reply to emails by clicking the reply button, which opens a modal window with fields to compose a response.
 
-## Running unit tests
+Additionally, users can compose new emails by clicking on the compose button, which opens a modal window similar to the reply window but with empty fields for recipient, subject, and content, allowing users to construct their own emails.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
->>>>>>> be63881 (First commit)
+**Some of the concepts that form part of this project:**
+- Authentication System
+- User Input Validation
+- Error Handling
