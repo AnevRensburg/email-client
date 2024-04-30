@@ -6,7 +6,7 @@
 
 This Email-client project was done as part of [The Modern Angular Bootcamp](https://www.udemy.com/course/the-modern-angular-bootcamp) course. I finished working on this project in February 2024.
 
-The first part of the application focuses solely on the authentication system. This part is the initial stage of our application's development, constructed independently. It involves setting up an authentication system.
+The first part of the application focuses solely on the authentication system. This part is the initial stage of our application's development, built in isolation. 
 
 There are several pages allowing users to navigate for signing in and signing up. Users can access a page displaying a sign-up form, where they can input a username, password, and password confirmation. Upon form submission, a new account representing the user is created on the backend server.
 
