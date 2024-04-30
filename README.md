@@ -4,7 +4,7 @@
 
 [View the demo](https://email-client-peach.vercel.app/)
 
-This Email-client project was done as part of [The Modern Angular Bootcamp](https://www.udemy.com/course/the-modern-angular-bootcamp) course. I finished working on this project in February 2024.
+This email client was developed as part of a [Modern Angular Bootcamp](https://www.udemy.com/course/the-modern-angular-bootcamp) project. I finished working on this project in February 2024.
 
 The first part of the application focuses solely on the authentication system. This part is the initial stage of our application's development, built in isolation. 
 
